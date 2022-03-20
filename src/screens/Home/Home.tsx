@@ -1,12 +1,15 @@
-import { View, Text, SafeAreaView } from "react-native";
+import { View, Text, SafeAreaView, ScrollView } from "react-native";
 import React from "react";
 import Post from "../../components/Post";
 
 const Home = () => {
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: "#151928" }}>
+    <ScrollView style={{ flex: 1, backgroundColor: "#151928" }}>
       <Post />
-    </SafeAreaView>
+      <Post />
+      <Post />
+      <Post />
+    </ScrollView>
   );
 };
 

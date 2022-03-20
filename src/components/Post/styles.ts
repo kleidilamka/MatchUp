@@ -5,8 +5,8 @@ var { width } = Dimensions.get("window");
 export const styles = StyleSheet.create({
   root: {
     width: width,
-
     flexDirection: "column",
+    marginBottom: 30,
   },
   topContainer: {
     flexDirection: "row",
